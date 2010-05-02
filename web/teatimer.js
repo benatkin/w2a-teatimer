@@ -7,8 +7,9 @@ function updateTime() {
   var minutes = Math.floor(Math.abs(difference / 60));
   var seconds = Math.floor(Math.abs(difference % 60));
   $('.time').text(minutes + ':' + (seconds > 9 ? '' : '0') + seconds);
-  if (Math.floor(difference) <= 0) {
+  if (difference < 0.9) {
     if (interval != undefined) clearInterval(interval);
+    $('.time').text('0:00');
     alert('your tea is ready!');
   }
 }
