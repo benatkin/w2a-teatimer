@@ -1,0 +1,43 @@
+body {
+  color: #fff;
+  background-color: #000;
+  margin: 0px;
+  padding: 0px;
+}
+
+div.wrap {
+  height: 480px;
+  width: 320px;
+  border-right: 2px solid #888;
+  border-bottom: 2px solid #888;
+}
+
+div.prompt {
+  text-align: center;
+  padding-top: 5px;
+}
+
+div.select {
+  text-align: center;
+}
+
+div.tea {
+  text-align: center;
+  font-size: 200%;
+}
+
+input.startTimer {
+  background-color: #fff;
+  color: #000;
+  border: 0px;
+  -webkit-border-radius: 5px;
+  font-size: 12pt;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+  cursor: hand;
+}
+
+input.startTimer.green {
+  color: #090;
+}
