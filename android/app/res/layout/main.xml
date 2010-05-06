@@ -11,5 +11,5 @@
 </LinearLayout>
 
 
-<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/time" android:textSize="40px" android:gravity="center" android:layout_gravity="center" android:padding="30px"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/time" android:textSize="40px" android:gravity="center" android:layout_gravity="center" android:padding="30px" android:id="@+id/Time"></TextView>
 </LinearLayout>
