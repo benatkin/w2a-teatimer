@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="time">0:00</string>
-    <string name="black">Black</string>
-    <string name="green">Green</string>
-    <string name="hello">Hello World, Timer!</string>
-    <string name="app_name">TeaTimer</string>
-<string name="type_of_tea">What type of tea?</string>
-</resources>
